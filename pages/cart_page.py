@@ -13,3 +13,4 @@ class Checkout:
     year = (By.ID, "year")
     purchase_success_msg = (By.CSS_SELECTOR, ".sweet-alert h2")
     order_details = (By.CSS_SELECTOR, "p.lead")
+    abc="jdhsj"

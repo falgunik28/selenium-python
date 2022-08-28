@@ -15,7 +15,7 @@ with open('../testdata.json') as data_file:
     # dt=data_file.read()
     data = json.load(data_file)
 
-
+#added to git
 def open_browser():
     if data['browser'] == 'chrome':
         service = Service(executable_path=data["chrome_driver_path"])
