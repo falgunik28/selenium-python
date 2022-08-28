@@ -1,0 +1,21 @@
+ {
+   "chrome_driver_path": "C:\\Program Files\\Google\\Chrome\\Application\\chromedriver.exe" ,
+   "ff_driver_path": "C:\\Program Files\\Google\\FF\\Application\\ff.exe" ,
+   "browser": "chrome",
+   "website_link": "https://www.demoblaze.com/index.html",
+   "username": "falguni",
+   "password": "1234",
+   "msg_text": "Welcome falguni",
+   "category_text": "Phones",
+   "phn_text": "Samsung galaxy s6",
+   "purchaser": "Raj",
+   "country": "India",
+    "city": "CG",
+    "card_details": "12345678",
+    "validity_month": "9",
+    "valid_year": "2022",
+    "confirmation_msg": "Thank you for your purchase!",
+    "exec_start": "Execution Started: ",
+    "exec_end": "Execution Ended: "
+ }
+
