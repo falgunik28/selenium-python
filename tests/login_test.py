@@ -10,13 +10,13 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-
 # read data from json file
 with open('../testdata.json') as data_file:
     # dt=data_file.read()
     data = json.load(data_file)
 
-#added to git
+
+# added to git
 def open_browser():
     if data['browser'] == 'chrome':
         service = Service(executable_path=data["chrome_driver_path"])
@@ -25,7 +25,7 @@ def open_browser():
         service = Service(executable_path=data["ff_driver_path"])
         driver = webdriver.Firefox(service=service)
     else:
-        driver=""
+        driver = ""
     driver.get(data["website_link"])
 
     # signin
