@@ -7,3 +7,4 @@ class Homepage:
     category_phones = (By.CLASS_NAME, "hrefch")
     add_to_cart_button = (By.CSS_SELECTOR, ".btn.btn-success.btn-lg")
     cart = (By.ID, "cartur")
+    log_out = (By.ID, "logout2")

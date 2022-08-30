@@ -16,6 +16,11 @@
     "valid_year": "2022",
     "confirmation_msg": "Thank you for your purchase!",
     "exec_start": "Execution Started: ",
-    "exec_end": "Execution Ended: "
+    "exec_end": "Execution Ended: ",
+    "new_user": "yrandom",
+    "new_pwd": "5678",
+    "alert_msg_01": "This user already exist.",
+   "alert_msg_02": "Sign up successful.",
+   "alert_msg_04": "Please fill out Username and Password."
  }
 
