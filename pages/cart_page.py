@@ -13,4 +13,6 @@ class Checkout:
     year = (By.ID, "year")
     purchase_success_msg = (By.CSS_SELECTOR, ".sweet-alert h2")
     order_details = (By.CSS_SELECTOR, "p.lead")
-    abc="jdhsj"
+    product_table_body = (By.ID, "tbodyid")
+    delete_button = (By.CSS_SELECTOR, "#tbodyid td a")
+    product_body_class = (By.CSS_SELECTOR,".table .success")

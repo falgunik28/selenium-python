@@ -8,3 +8,4 @@ class Homepage:
     add_to_cart_button = (By.CSS_SELECTOR, ".btn.btn-success.btn-lg")
     cart = (By.ID, "cartur")
     log_out = (By.ID, "logout2")
+    home_btn = (By.CSS_SELECTOR,".nav-item.active")
