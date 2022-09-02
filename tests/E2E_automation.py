@@ -11,7 +11,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 # read data from json file
-with open('../testdata.json') as data_file:
+with open('../pages/testdata.json') as data_file:
     # dt=data_file.read()
     data = json.load(data_file)
 
@@ -51,7 +51,7 @@ def open_browser():
     category_lists = driver.find_elements(*Homepage.categories)
     for category in category_lists:
         print(category.text)
-        if category.text == data["category_text"]:
+        if category.text == data["category_phone"]:
             category.click()
             break
     phone_list = driver.find_elements(*Homepage.category_phones)
