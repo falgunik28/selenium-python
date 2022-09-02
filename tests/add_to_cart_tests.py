@@ -37,7 +37,7 @@ def test_add_to_cart():
     category_lists = d.driver.find_elements(*Homepage.categories)
     for category in category_lists:
         print(category.text)
-        if category.text == data["category_text"]:
+        if category.text == data["category_phone"]:
             category.click()
             break
     phone_list = d.driver.find_elements(*Homepage.category_phones)
@@ -64,7 +64,7 @@ def test_add_to_cart_thrice():
     category_lists = d.driver.find_elements(*Homepage.categories)
     for category in category_lists:
         print(category.text)
-        if category.text == data["category_text"]:
+        if category.text == data["category_phone"]:
             category.click()
             break
     phone_list = d.driver.find_elements(*Homepage.category_phones)
@@ -122,4 +122,4 @@ test_add_to_cart()
 test_delete_cart()
 logout()
 test_add_to_cart_thrice()
-d.driver
+d.driver.quit()

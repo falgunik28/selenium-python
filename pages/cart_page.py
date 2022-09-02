@@ -16,3 +16,4 @@ class Checkout:
     product_table_body = (By.ID, "tbodyid")
     delete_button = (By.CSS_SELECTOR, "#tbodyid td a")
     product_body_class = (By.CSS_SELECTOR,".table .success")
+

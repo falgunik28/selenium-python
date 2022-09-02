@@ -51,7 +51,7 @@ def open_browser():
     category_lists = driver.find_elements(*Homepage.categories)
     for category in category_lists:
         print(category.text)
-        if category.text == data["category_text"]:
+        if category.text == data["category_phone"]:
             category.click()
             break
     phone_list = driver.find_elements(*Homepage.category_phones)

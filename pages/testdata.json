@@ -6,7 +6,7 @@
    "username": "falguni",
    "password": "1234",
    "msg_text": "Welcome falguni",
-   "category_text": "Phones",
+   "category_phone": "Phones",
    "phn_text": "Samsung galaxy s6",
    "purchaser": "Raj",
    "country": "India",
@@ -21,6 +21,15 @@
     "new_pwd": "5678",
     "alert_msg_01": "This user already exist.",
    "alert_msg_02": "Sign up successful.",
-   "alert_msg_04": "Please fill out Username and Password."
+   "alert_msg_04": "Please fill out Username and Password.",
+   "contact": "Contact",
+   "about_us": "About us",
+   "contact_pg_header": "New message",
+   "about_us_header": "About us",
+   "place_order": "Place Order",
+   "category_laptops": "Laptops",
+   "category_monitors": "Monitors",
+   "all_phones": ["Samsung galaxy s6", "Nokia lumia 1520", "Nexus 6",
+                  "Samsung galaxy s7","Iphone 6 32gb","Sony xperia z5","HTC One M9"]
  }
 
